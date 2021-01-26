@@ -1,0 +1,206 @@
+body {
+    background-image: linear-gradient(#FC5E55, #FA4083);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125em;
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.4);
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    line-height: 1.75rem;
+    padding-bottom: 1rem;
+}
+
+.container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 300px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px white;
+    margin-bottom: 2.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.card1 {
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+    min-height: 250px;
+}
+
+.card2 {
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+    min-height: 250px;
+}
+
+.card3 {
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+    min-height: 250px;
+}
+
+.cards p {
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+}
+
+.card1,
+.card2,
+.card3 {
+    padding: 0.5rem;
+    border-radius: 2em;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.226);
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+.herobox1 {
+    flex: 2;
+    padding-right: 3rem;
+}
+
+.herobox2 {
+    flex: 1;
+}
+
+.herobox2 img {
+    border-radius: 2em;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.228);
+}
+
+.material-icons {
+    font-size: 100px;
+}
+
+.button1 {
+    background-color: white;
+    color: #FA4083;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    border-radius: 2em;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.228);
+    padding: 0.5rem 1rem;
+}
+
+.button1:hover {
+    background: none;
+    color: white;
+    box-shadow: none;
+    border: solid 2px white;
+    transition-duration: 1s;
+}
+
+nav a {
+    background: none;
+    border: none;
+    color: white;
+    position: relative;
+    padding: 0.5rem 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 2em;
+    outline: none;
+    width: 10em;
+    margin-left: 2rem;
+}
+
+nav a:before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.228);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0.4em;
+    left: 0.4em;
+    border-radius: 2em;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.material-icons.md-88 {
+    font-size: 88px;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 2.5rem;
+}
+
+.tbox {
+    width: 47%;
+    padding: 1.5rem;
+    border: solid 2px white;
+    border-radius: 2em;
+    box-sizing: border-box;
+    margin-top: 2.5rem;
+}
