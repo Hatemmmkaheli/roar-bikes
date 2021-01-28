@@ -58,13 +58,13 @@
 
             <form action="mail.php" method="POST">
                 <div class="inputwrapper">
-                    <label for="name">First Name: </label>
+                    <label for="name" class="newline">First Name: </label>
                     <input type="text" name="name" id="name" placeholder="First Name">
 
                 </div>
 
                 <div class="inputwrapper">
-                    <label for="email">Email: </label>
+                    <label for="email" class="newline">Email: </label>
                     <input type="email" name="email" id="email" placeholder="example@mail.com">
 
                 </div>
@@ -79,7 +79,36 @@
 
                 </div>
 
-                <input type="submit" value="sumit">
+                <p style="margin-bottom: 0; padding-bottom: 0;">How would be contacted?</p>
+                <div class="inputwrapper">
+                    <input type="radio" name="contact-pref" id="phone" value="phone" class="margin-right-a">
+                    <label for="phone">Phone</label>
+                    <input type="radio" name="contact-pref" id="mail" value="email" class="margin-right-a">
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="inputwrapper">
+
+                    <select name="states" id="states">
+                        <option value="choose">Choose location of residence</option>
+                        <option value="Riyadh">Riyadh</option>
+                        <option value="Jeddah">Jeddah</option>
+                        <option value="Makkah">Makkah</option>
+                        <option value="Al Khobar">Al Khobar</option>
+                        <option value="Dammam">Dammam</option>
+                    </select>
+
+                </div>
+
+                <div class="inputwrapper">
+                    <input type="color" name="" id="">
+                    <input type="date" name="" id="">
+                    <input type="datetime-local" name="" id="">
+                </div>
+
+
+
+                <input type="submit" value="Submit" class="button1">
             </form>
         </div>
 
